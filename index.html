@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Steam</title>
+  </head>
+  <body>
+    <h1>
+      ¡Hola! Bienvenido a tu calculadora de precios de Steam, de USD a ARS
+    </h1>
+    <h2>Introduce los datos</h2>
+    <!-- Nombre del juego -->
+    <div id="container-one">
+      <label>Nombre del juego:</label>
+      <input type="text" id="game-name" />
+    </div>
+    <!-- Precio del juego en USD -->
+    <div id="container-two">
+      <label>Precio del juego en USD:</label>
+      <input type="number" id="game-price-usd" />
+    </div>
+    <!-- Precio del juego en ARS -->
+    <div id="container-three">
+      <label>Precio del juego en ARS:</label>
+      <p id="price-ars">---</p>
+    </div>
+    <!-- Botones -->
+    <button id="calculate-button">Calcular</button>
+    <button id="clear-button">Borrar todo</button>
+    <!-- Script -->
+    <script src="main.js"></script>
+  </body>
+</html>
